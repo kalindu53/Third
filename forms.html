@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<form>
+    <input type="text"> <br><br>
+
+    <!--inline elemane ida ganne thamanta awashya pramanaya withrai, block level element ehma na ---------->
+    <!----void element , close tag ekk nathi element-->
+    <input type="password"> <br><br>
+
+    <input type="email"> <br><br>
+
+    <input type="button" value="click"><br><br>
+
+    <input type="checkbox"><br><br>
+
+    <input type="radio"><br><br>
+
+    <input type="color"><br><br>
+
+    <input type="date" min="2020-05-11" max="2024-07-13"><br><br>
+
+    <input type="datetime-local"><br><br>
+
+    <input type="month"><br><br>
+
+    <input type="week"><br><br>
+
+
+    <!------number--->
+
+    <input type="number">
+
+    <!--search--->
+    <input type="search">
+
+    <!--tel----->
+
+    <input type="tel"> <br><br>
+
+
+    <!--range picker--->
+
+    <input type="range">
+
+    <!--file input-->
+
+    <input type="file">
+
+    <input type="image " ><br><br>
+
+
+    <input type="hidden">
+
+
+    <!---buttom--->
+
+    <input type="button" value="button">
+    <input type="reset" value="reset">
+    <input type="submit"  value="submit"><br><br><br>
+
+
+    <!--label--->
+
+    <label for="first-name" > First Name</label><br>
+    <input type="text" id="first-name" placeholder="Enter your First Name"><br>
+
+    <label  for="lastName"> Last Name</label><br>
+    <input type="text" id="lastName" placeholder="Enter your last name"><br><br><br>
+
+
+    <label for="massage">message</label>
+    <textarea placeholder= "Enter Your massage"
+    id="massage"  rows="10" cols="100">
+
+    </textarea><br><br><br>
+
+    <label for="Select">Prgram</label>
+    <select id="Select">
+        <option value="p1">Java</option>
+        <option value="p2">NodeJs</option>
+        <option value="p3">Perl</option>
+
+    </select><br><br><br>
+
+
+</form>
+
+
+
+<form action="test.html" method="post">  <!--get eken yawaddi data link eken penawa , post ekedi ehema penne na --->
+    <h1>STUDENT FORM</h1>
+
+    <label for="Firstname" > First Name</label><br>
+    <input type="text" id="Firstname" placeholder="Enter your First Name" name="fName"><br>
+
+    <label  for="last_Name"> Last Name</label><br>
+    <input type="text" id="last_Name" placeholder="Enter your last name"name="lMa,e"><br><br><br>
+
+
+    <label for="massages">message</label>
+    <textarea placeholder= "EnterYourmassage"
+              id="massages"  rows="10" cols="100">
+
+    </textarea><br><br><br>
+
+    <label for="Selects">Prgram</label>
+    <select id="Selects">
+        <optgroup label="backend">
+        <option value="p1">Java</option>
+        <option value="p2">NodeJs</option>
+        <option value="p3">Perl</option>
+        </optgroup>
+        <optgroup label="frontend">
+
+        <option value="p4">JavaScript</option>
+        <option value="p5">Angular</option>
+        <option value="p6">React</option>
+        </optgroup>
+    </select>
+
+    <button type="button">Click</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button><br><br><br>
+
+   <fieldset >
+    <legend >Select Payment</legend>
+    <input type="radio" name="payment" value="one time Payment" id="one time">
+    <label for="one time" >One Time Payemnt</label><br><br>
+
+    <input  type="radio" name="payment" value=" monthley Payment" id="monthley">
+    <label for="monthley">Monthly  Payemnt</label>
+
+   </fieldset><br><br>
+
+    <input type="text" list="data">
+    <datalist id="data">  <!-- api serch karana sdeyk suggest wena widiata daganna oona nm --->
+        <option value="front-end devoloper">frontend-devoloper</option>
+        <option value="back-end devoloper">backend-devoloper</option>
+        <option value="ui">ui</option>
+    </datalist>
+
+</form><br><br><br><br>
+
+
+
+
+<form oninput="result.value=parseInt(num1.value)+parseInt(num2.value)">
+    <input type="number" id="num1" name="num1">
+    <input type="number" id="num2" name="num2">
+    <output name="result" for="a b">0</output><br><br><br><br>
+
+
+</form>
+
+    <!---List----->
+
+<ol type="I">
+    <li>java</li>
+    <li>python</li>
+    <li>c+</li>
+    <li>java</li>
+    <li>python</li>
+    <li>c+</li>
+    <li>java</li>
+    <li>python</li>
+    <li>c+</li>
+    <li>java</li>
+    <li>python</li>
+    <li>c+</li>
+</ol>
+
+<ul type="disk">
+    <li>java</li>
+    <li>python</li>
+    <li>c+</li>
+</ul>
+
+<dl>
+    <dt>cuntries</dt>  <!--description title , dt-->
+    <dd>Sri lanka</dd> <!--description dtail , dt-->
+    <dd>china</dd>
+    <dd>europe</dd>
+</dl>
+
+
+<ol>
+    <li>Java</li>
+    <li>python</li>
+    <li>pearl</li>
+    <li>c++</li>
+    <dt>Internet Technologies</dt>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <ul>
+            <li>Core java script</li>
+            <li>Jquarey</li>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue</li>
+
+        </ul>
+        <li>UIUX</li>
+    </ol>
+
+</ol>
+
+</body>
+</html>
