@@ -14,7 +14,7 @@
         }
 
         #topic{
-            background: chartreuse;
+            background: #24ff00;
         }
 
         .myClass{
@@ -27,24 +27,159 @@
 
         */
 
-
+/*
         [href] {
             color: darkgreen;
         }
 
+ */
+
         [href^="https" ]{
             font-weight: bold;
         }
-
+/*
         [href $=".com"]{
             background: red;
         }
         [href $=".lk"]{
             background: aquamarine;
+
+        }
+
+ */
+
+        /*[href *= "ijse"]{
+            background: chartreuse;
+        }
+
+         */
+
+        /*
+        [href ~= "ijse"]{
+            background: coral;
         }
 
         [class]{
             color: slateblue;
+        }
+
+        h1:hover{
+            background-color: brown;
+        }
+
+        h1:active{
+            background-color: slateblue;
+        }
+
+        a:link{
+            color: darkgreen;
+        }
+
+        a:visited{
+            color: blue;
+        }
+
+        input:focus{
+            background: magenta;
+        }
+
+        li:first-child{
+            color: red;
+            background: yellow;
+        }
+        li:last-child{
+            color: gray;
+            background: brown;
+        }
+
+
+        li:nth-child(2){
+            color: purple;
+            background: dodgerblue;
+        }
+
+         */
+
+    /*
+      li:nth-last-child(2){
+          color: greenyellow;
+          background: black;
+        }
+
+     */
+
+        /*
+        li:nth-last-child(odd){
+            color: greenyellow;
+            background: black;
+        }
+
+         */
+        /*
+        li:nth-last-child(even){
+            color: greenyellow;
+            background: black;
+        }
+
+         */
+        /*
+        li:nth-last-child(n+4){
+            color: greenyellow;
+            background: black;
+        }
+
+         */
+        /*
+        li:nth-last-child(3n-1){
+            color: greenyellow;
+            background: black;
+        }
+
+         */
+
+
+        /*
+        li:nth-last-child(3n+1){
+            color: greenyellow;
+            background: black;
+        }
+
+         */
+        li:nth-child(4n){
+            color: greenyellow;
+            background: black;
+        }
+
+        p::first-letter{
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        p::first-line{
+            font-weight: bold;
+        }
+
+        p:hover{
+            background: #24ff00;
+        }
+        p::before {
+            content: "😊😊";
+        }
+        p::after{
+            content: "💕💕";
+        }
+        p:last-child{
+            font-size: 50px;
+            font-weight: bold;
+        }
+        input[type="file"]::file-selector-button{
+            background-color: blue;
+        }
+        p::selection{
+            background: greenyellow;
+        }
+        li::marker{
+            content: "🐭";
         }
 
     </STYLE>
@@ -52,8 +187,10 @@
 </head>
 <body>
 
+
+    <h1>IJSE INSTITUTE OF SOFTWARE ENGINEERING</h1>
     <!--inline-->
-    <h1 style="color: chartreuse">INLINE CSS</h1>
+   <!-- <h1 style="color: chartreuse">INLINE CSS</h1> -->
     <!--external-->
     <h2>INTERNAL CSS</h2>
     <H3>EXTERNAL CSS</H3>
@@ -66,13 +203,31 @@
 <p class="myClass">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, accusantium assumenda commodi delectus, deserunt distinctio dolores ipsam ipsum magnam maiores quae recusandae rem reprehenderit similique soluta temporibus, ullam? Doloribus, odio.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda aut blanditiis eveniet harum illum, incidunt ipsa iusto natus officia porro, possimus provident reprehenderit soluta voluptatem voluptates voluptatum. Praesentium, quis.</p>
 
-<a href="http://ijse.lk">IJSE 1</a>  <br>
-<a href="https://ijse.lk">IJSE 2</a>  <br>
+<a href="http:// ijse .lk">IJSE 1</a>  <br>
+<a href="https:// ijse .lk">IJSE 2</a>  <br>
 <a href="https://abc.com">ABC</a>    <br>
 <a href="https://hiru.com">ABC</a>    <br>
 
 
+<a href="https://sirasatv.lk">Sirasa</a> <br>
+<a href="https://hirutv">hiru</a> <br>
+<a href="https://supremetv">supreme</a> <br><br><br>
 
+<input type="text">enter your name <br><br><br><br>
+    <input type="file"><br><br><br>
+
+<ul>
+    <li>abc</li>
+    <li>def</li>
+    <li>ghi</li>
+    <li>jkl</li>
+</ul>
+
+
+        <li>abc</li>
+        <li>def</li>
+        <li>ghi</li>
+        <li>jkl</li>
 
 
 </body>
